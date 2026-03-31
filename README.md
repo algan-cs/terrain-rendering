@@ -139,15 +139,6 @@ When the user changes the height scale with U/I, it's a non-uniform scale `(1, h
 
 Since I don't have a numpad, I remapped NUMPAD +/- to U/I keys for height scale adjustment.
 
-## Performance
-
-| Tessellation Rate | Vertices | Triangles | Notes |
-|---|---|---|---|
-| 2 | ~510K | ~510K | Very coarse, fast |
-| 5 | ~3.2M | ~5.1M | Good balance |
-| 10 | ~12.8M | ~20.7M | Smooth, initial load ~few seconds |
-| 15 | ~28.8M | ~47M | Very smooth, noticeable generation time |
-
 ## Controls Summary
 
 | Key | Action |
