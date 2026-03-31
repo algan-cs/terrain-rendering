@@ -1,0 +1,8 @@
+# Everything ignored by default
+*
+
+# Only allow blog content
+!README.md
+!images/
+!images/**
+!.gitignore
